@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>慕课网</title>
+    <link rel="stylesheet" href="style/main.css">
+    <link rel="stylesheet" href="style/swiper.min.css">
+    <script src="js/swiper.min.js"></script>
+</head>
+<body>
+    <div class="warper">
+        <div class="header">
+            <a class="logo" href="">
+                <img src="images/logo.jpg" height="80" width="200" title="慕课网">
+            </a>
+            <div class="hot-line"><div class="hl-text">24小时服务热线：</div><div class="hl-number">123-456-7890</div></div>
+
+            <div class="nav">
+                <ul>
+                    <li><a href="">首页</a></li>
+                    <li><a href="">关于慕课</a></li>
+                    <li><a href="">新闻动态</a></li>
+                    <li><a href="">课程中心</a></li>
+                    <li><a href="">在线课程</a></li>
+                    <li><a href="">人才招聘</a></li>
+                </ul>
+
+                <div class="search">
+                    <input type="text" class="search-text">
+                    <!-- <button class="search-button"></button> -->
+                    <input type="button" class="search-button">
+                </div>
+            </div>
+        </div>
+        <div class="banner">
+            <div class="swiper-container banner-container">
+                <div class="swiper-wrapper banner-wrapper">
+                    <div class="swiper-slide banner-slide" style="background:url(images/ad2.jpg)"><a href="#"></a></div>
+                    <div class="swiper-slide banner-slide" style="background:url(images/ad3.jpg)"><a href="#"></a></div>
+                    <div class="swiper-slide banner-slide" style="background:url(images/ad4.jpg)"><a href="#"></a></div>
+                </div>
+            </div>
+        </div>
+            <script>
+            var swiper = new Swiper('.banner-container', {
+                paginationClickable: true,
+                centeredSlides: true,
+                autoplay: 4000,
+                autoplayDisableOnInteraction: false,
+                loop: true,
+            });
+            </script>
+        <div class="main">
+            <div class="news">
+                <div class="top-title">
+                    <div class="title">新闻中心</div>
+                    <span class="more"><a href=""></a></span>
+                </div>
+                <div class="little-main">
+                    <img src="images/news.jpg" height="88" width="113" alt="" style="float: left; margin-right:15px;">
+                    <strong class="main-title">520 慕女神喊你来表白！</strong>
+                    <p class="main-text">活动时间：5月20日-5月25日<br>获奖公布时间：5月26日</p>
+                    <a href="" style="text-decoration: underline">Learn More >></a>
+                </div>
+
+            </div>
+
+        </div>
+        <div class="footer"></div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,193 @@
+* {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+body {
+    background-color: #fff;
+}
+
+.warper {
+    width: 1000px;
+    margin: 0 auto;
+
+    .header {
+        height: 120px;
+        width: 100%;
+
+        .logo {
+            display: block;
+            width: 200px;
+            height: 80px;
+            float: left;
+        }
+
+        .hot-line {
+            width: 260px;
+            height: 28px;
+            float: right;
+            background: url(../images/tel.jpg) no-repeat;
+            margin-top: 26px;
+            padding-left: 40px;
+            line-height: 28px;
+            vertical-align: middle;
+            font-size: 10px;
+
+            .hl-text {
+                line-height: 28px;
+                font-size: 10px;
+                float: left;
+            }
+
+            .hl-number {
+                font-size: 20px;
+                color: #f00;
+                line-height: 28px;
+                float: left;
+            }
+            
+        }
+
+        .nav {
+            width: 100%;
+            height: 40px;
+            background-color: #696969;
+            clear: both;
+            position: relative;
+
+            ul {
+                width: 600px;
+                height: 40px;
+
+                li {
+                    width: 100px;
+                    height: 40px;
+                    float: left;
+                    transition: 0.5 all;
+
+                    &:hover {
+                        background-color:#fff;
+                    }
+
+                    a {
+                        display: block;
+                        width: 100px;
+                        height: 40px;
+                        line-height:40px;
+                        color:#fff;
+                        text-align: center;
+
+                        &:hover {
+                            color: #ca394a;
+                        }
+                    }
+                }
+            }
+
+            .search {
+                width: 200px;
+                height: 30px;
+                position: absolute;
+                right: 30px;
+                top: 5px;
+                background-color: #fff;
+
+                .search-text {
+                    outline: none;
+                    border: none;
+                    width: 165px;
+                    height: 30px;
+                    padding-left: 5px;
+                    float: left;
+                }
+                .search-button {
+                    background: url(../images/search.jpg) no-repeat;
+                    background-position: center center;
+                    width: 30px;
+                    height: 30px;
+                    outline: none;
+                    border: none;
+                    float: left;
+                }
+            }
+        }
+    }
+    
+
+    .banner {
+        width: 1000px;
+        height: 310px;
+
+        .banner-container {
+            width: 100%;
+            height: 100%;
+
+            .banner-wrapper {
+                width: 100%;
+                height: 310px;
+            }
+
+        }
+    }
+
+    .main {
+        margin-top: 10px;
+
+        .news {
+            width: 350px;
+            height: 250px;
+            border: 1px solid #e8e8e8;
+
+            .top-title {
+                height: 35px;
+                border-bottom: 1px solid #e8e8e8;
+                position: relative;
+
+                .title {
+                    font-size: 20px;
+                    line-height: 35px;
+                    padding-left:20px;
+                }
+
+                span.more {
+                    width: 60px;
+                    height: 35px;
+                    position: absolute;
+                    right: 0;
+                    top: 0;
+                    background: url(../images/more.jpg) center center no-repeat;
+
+                    a {
+                        display:block;
+                        width:100%;
+                        height: 100%;
+                    }
+                }
+            }
+
+            .little-main {
+                padding-left: 5px;
+                padding-top: 10px;
+
+                .main-title {
+                    float: left;
+                    width:217px;
+                    font-size: 15px;
+                }
+
+                .main-text {
+                    float: left;
+                    width:217px;
+                    font-size:13px;
+                    margin-top: 5px;
+                    line-height:25px;
+                }
+            }
+        }
+    }
+
+
+
+}
