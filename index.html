@@ -39,10 +39,12 @@
                     <div class="swiper-slide banner-slide" style="background:url(images/ad3.jpg)"><a href="#"></a></div>
                     <div class="swiper-slide banner-slide" style="background:url(images/ad4.jpg)"><a href="#"></a></div>
                 </div>
+                <div class="swiper-pagination banner-pagination"></div>
             </div>
         </div>
             <script>
             var swiper = new Swiper('.banner-container', {
+                pagination: '.banner-pagination',
                 paginationClickable: true,
                 centeredSlides: true,
                 autoplay: 4000,
@@ -57,16 +59,92 @@
                     <span class="more"><a href=""></a></span>
                 </div>
                 <div class="little-main">
-                    <img src="images/news.jpg" height="88" width="113" alt="" style="float: left; margin-right:15px;">
+                    <a href=""><img src="images/news.jpg" height="88" width="113" alt="" style="float: left; margin-right:15px;"></a>
                     <strong class="main-title">520 慕女神喊你来表白！</strong>
                     <p class="main-text">活动时间：5月20日-5月25日<br>获奖公布时间：5月26日</p>
                     <a href="" style="text-decoration: underline">Learn More >></a>
+                    <ul class="news-list">
+                        <li><!-- <img src="images/list.jpg" height="5" width="5" alt="" style="position: absolute; margin-top: 3px;"> --><a href="">【慕客访谈 用户篇】“有为屌丝”在路上 <span class="news-list-time">2014-06-01</span></a></li>
+                        <li><a href="">【慕客访谈 用户篇】“有为屌丝”在路上 <span class="news-list-time">2014-06-01</span></a></li>
+                        <li><a href="">【慕客访谈 用户篇】“有为屌丝”在路上 <span class="news-list-time">2014-06-01</span></a></li>
+                        <li><a href="">【慕客访谈 用户篇】“有为屌丝”在路上 <span class="news-list-time">2014-06-01</span></a></li>
+                    </ul>
                 </div>
+            </div>
 
+            <div class="klass">
+                <div class="top-title">
+                    <div class="title">课程中心</div>
+                    <span class="more"><a href=""></a></span>
+                </div>
+                <div class="little-main">
+                    <a href=""><img src="images/QQ截图20140531173247.jpg" height="105" width="157" style="float: left; margin-right:15px;"></a>
+                    <strong class="main-title"><a href="" style="color:#f00;">CSS圆角进化论</a></strong>
+                    <p class="main-text">CSS圆角的实现，经历了三大发展阶段：背景图片方式、css2.0+html标签模拟、css3.0圆角属性。本案例详细讲解每一种的实现方式，并对实现的优缺点进行对比分析。</p>
+                    <ul class="klass-list">
+                        <li><a href="">PHP开发</a></li>
+                        <li><a href="">前端开发</a></li>
+                        <li><a href="">JAVA开发</a></li>
+                        <li><a href="">Android开发</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="media">
+                <div class="top-title">
+                    <div class="title">媒体聚焦</div>
+                    <span class="more"><a href=""></a></span>
+                </div>
+                <div class="little-main">
+                    <iframe height=145 width=220 src='http://player.youku.com/embed/XNzE4MDg4NDYw' frameborder=0 'allowfullscreen'></iframe>
+                    <a href=""><img src="images/app.jpg" height="55" width="225" alt=""></a>
+                </div>
             </div>
 
         </div>
-        <div class="footer"></div>
     </div>
+    <footer>
+        <div class="footer-wraper">
+            <ul>
+                <li>
+                    <p class="list-title">关于</p>
+                    <p class="little-list"><a href="">品牌故事</a></p>
+                    <p class="little-list"><a href="">联系我们</a></p>
+                    <p class="little-list"><a href="">加入我们</a></p>
+                    <p class="little-list"><a href="">版权声明</a></p>
+                </li>
+                <span class="list-border"></span>
+                 <li>
+                    <p class="list-title">课程</p>
+                    <p class="little-list"><a href="">PHP开发</a></p>
+                    <p class="little-list"><a href="">前端开发</a></p>
+                    <p class="little-list"><a href="">JAVA开发</a></p>
+                    <p class="little-list"><a href="">Android开发</a></p>
+                </li>
+                <span class="list-border"></span>
+                 <li>
+                    <p class="list-title">关注</p>
+                    <p class="little-list"><a href="">新浪微博</a></p>
+                    <p class="little-list"><a href="">腾讯微博</a></p>
+                    <p class="little-list"><a href="">企业微信</a></p>
+                    <p class="little-list"><a href="">QQ空间</a></p>
+                </li>
+                <span class="list-border"></span>
+                 <li>
+                    <p class="list-title">留言</p>
+                    <p class="little-list"><a href="">意见反馈</a></p>
+                    <p class="little-list"><a href="">问题留言</a></p>
+                    <p class="little-list"><a href="">媒体联络</a></p>
+                    <p class="little-list"><a href="">在线客服</a></p>
+                </li>
+                <span class="list-border"></span>
+                 <li>
+                    <p class="list-title wechat">微信关注</p>
+                    <img src="images/qrcode.jpg" height="102" width="102" alt="" class="footer-image">
+                </li>
+
+            </ul>
+        </div>
+    </footer>
 </body>
 </html>
